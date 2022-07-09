@@ -1,0 +1,174 @@
+header img {
+    margin: auto 70px;
+}
+
+header button {
+    background-color: grey;
+    Font-Size: 11px;
+    width: 80px;
+    height: 30px;
+    position: relative;
+    bottom: 40px;
+}
+
+
+header {
+
+    background-color: whitesmoke;
+    border-bottom: 1px dotted #000;
+    text-decoration: none;  
+   
+    /*Linea*/
+}
+.mu1 {
+    display: flex;
+    justify-content: right;
+}
+
+#menu ul {
+    /*Menu*/
+    list-style: none;
+    margin: 30px auto;
+    padding: 0;
+    
+    /*Menu*/
+}
+
+#menu ul li {
+    display: inline-block;
+}
+
+#menu ul li a {
+    color: black;
+    display: block;
+    padding: 15px 20px;
+    text-decoration: none;
+    color:  #c95555;
+}
+
+#menu {
+    display: inline-block;
+    position: relative;
+    bottom: 80px;       
+}
+
+.inle {
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    position: relative;
+    bottom: 50px;
+}
+
+
+
+#buscar {
+    width: 240px;
+    height: 30px;
+    position: relative;
+}
+
+#b2 {
+    width: 100px;
+    height: 30px;
+    position: relative;
+    left: 40px;
+    Font-Size: 11px;
+    top: 1px;
+}
+
+.seccio1 h3 {
+    text-align: center;
+    Font-Size: 14px;
+    font-weight: bold;
+}
+
+.seccio1 p {
+    text-align: center;
+    padding: 10px;
+}
+
+#f1a {
+    position: relative;
+    text-align: center;
+    display: inline-block
+}
+
+#f2a {
+    position: relative;
+    text-align: center;
+    display: inline-block
+}
+
+#f3a {
+    position: relative;
+    text-align: center;
+    display: inline-block
+}
+
+.seccio1 {
+    text-align: center;
+    border-bottom: 1px dotted #000;
+    text-decoration: none;
+    /*Linea*/
+}
+
+/*fin seccion1*/
+.seccio2 h1 {
+    position: relative;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#fs2 {
+    position: relative;
+    left: 1px;
+    display: inline-block;
+}
+
+#fs3 {
+    position: relative;
+    left: 50px;
+    display: inline-block;
+}
+
+.seccio2 {
+    text-align: center;
+    border-bottom: 1px dotted #000;
+    text-decoration: none;
+    /*Linea*/
+}
+
+/*menu2*/
+
+#menu2 ul {
+    /*Menu*/
+    list-style: none;
+    margin: 30px auto;
+    padding: 0;
+    width: 500px;
+    /*Menu*/
+}
+
+#menu2 ul li {
+    display: inline-block;
+}
+
+#menu2 ul li a {
+    color: black;
+    display: block;
+    padding: 15px 20px;
+    text-decoration: none;
+    color:  #c95555;
+}
+
+#menu2 {
+    position: relative;
+    text-align: center;
+}
+
+footer p {
+    text-align: center;
+    Padding: 10px;
+}
