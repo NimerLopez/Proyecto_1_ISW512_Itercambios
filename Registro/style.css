@@ -1,0 +1,160 @@
+html {
+    margin: auto 50px;
+}
+
+header img {
+    position: relative;
+}
+
+header button {
+    background-color: rgb(202, 198, 198);
+    Font-Size: 11px;
+}
+
+
+header {
+    text-align: center;
+    background-color: whitesmoke;
+    border-bottom: 1px dotted #000;
+    text-decoration: none;
+    /*Linea*/
+
+}
+
+
+#menu ul {
+    /*Menu*/
+
+    width: 500px;
+    list-style: none;
+    /*Menu*/
+}
+
+#menu ul li {
+    display: inline-block;
+}
+
+#menu ul li a {
+    color: black;
+    display: inline-block;
+    padding: 15px 20px;
+    text-decoration: none;
+    color: #c95555;
+}
+
+#menu {
+
+    display: inline-block;
+    position: relative;
+    text-align: right;
+
+}
+
+.seccion1 {
+    Font-Size: 16px;
+    Font-Weight: Bold;
+    text-align: center;
+    background-color: rgb(212, 211, 211);
+    position: relative;
+    height: 150px;
+    bottom: 20px;
+}
+.seccion1 h1{
+    position: relative;
+    top: 60px; 
+    font-size: 16px;
+    font-weight: bold; 
+    text-decoration: underline;
+}
+.seccion2{
+    text-align: center;  
+    border-bottom: 1px dotted #000;
+    text-decoration: none;
+}
+.seccion2 p{
+    text-align: center;
+    padding: 10px;
+}
+
+/*elementos*/
+#fn{
+    width: 340px;
+    height: 30px; 
+    font-size: 11px
+}
+#ln{
+    width: 340px;
+    height: 30px;  
+    font-size: 11px
+}
+#dire{
+    width: 690px;
+    height: 30px;  
+    font-size: 11px
+}
+#dire2{
+    width: 690px;
+    height: 30px;  
+    font-size: 11px
+}
+#pais{
+    width: 340px;
+    height: 35px; 
+    font-size: 11px
+}
+#cit{
+    width: 340px;
+    height: 30px; 
+    font-size: 11px
+}
+#corr{
+    width: 340px;
+    height: 30px; 
+    font-size: 11px 
+}
+#con{
+    width: 340px;
+    height: 30px;  
+    font-size: 11px
+}
+
+.seccion2 button{
+    font-Size: 11px;
+    width:140px;
+    height:40px;
+    background-color: gray;
+
+}
+
+
+/*footer*/
+#menu2 ul {
+    /*Menu*/
+    list-style: none;
+    margin: 30px auto;
+    padding: 0;
+    width: 500px;
+    /*Menu*/
+}
+
+#menu2 ul li {
+    display: inline-block;
+}
+
+#menu2 ul li a {
+    color: black;
+    display: block;
+    padding: 15px 20px;
+    text-decoration: none;
+    color: #c95555;
+}
+
+#menu2 {
+    position: relative;
+    text-align: center;
+}
+
+footer p {
+    text-align: center;
+    Padding: 10px;
+}

@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cambalache_Admin</title>
+    <title>Registro_Cambalache</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -25,6 +25,7 @@
 
 
 
+
             </ul>
         </nav>
         <button>
@@ -34,41 +35,34 @@
         <!--Fin Menu-->
     </header>
     <main>
-        <div class="campotexto">
-            <h1>Dashboard</h1>
-            <p>Bienvenido <b>Nimer</b> , Aqui podra encontrar el estado actual de sus <br>
-                Cambalaches y sus productos registrados
-            </p>
+        <div class="seccion1">
+            <H1>Registro de Usuarios</H1>
         </div>
-        <div class="idboton">
-            <button onclick="window.location.href='http://proyecto.net/EDproducto/';">Nuevo</button>
-        </div>
-        <section class="seccion1">
+        <section class="seccion2">
 
+            <input type="text" name="Agregar" id="fn" placeholder="First Name"> <input type="text" name="Busca" id="ln"
+                placeholder="Last Name"> <br><br>
+            <input type="text" name="Agregar" id="dire" placeholder="Address"><br><br>
+            <input type="text" name="Agregar" id="dire2" placeholder="Address 2"><br><br>
+            <select name="pai" id="pais">
+                <option value="Contry">Country</option>
+                <option value="Contry">Costa Rica</option>
+                <option value="Contry">Nicaragua</option>
+                <option value="Contry">Panama</option>
+            </select> <input type="text" name="Busca" id="cit" placeholder="City"><br><br>
+            <input type="text" name="Agregar" id="corr" placeholder="Correo Electronico"> <input type="text"
+                name="Agregar" id="con" placeholder="Contraseña"><br><br>
+            <!--fin de atributos-->
 
-            <img src="img/cpatu1.png" width="100" alt="">
-            <a href="#">NINTENDO SWITCH</a>
-            <button onclick="window.location.href='http://proyecto.net/EDproducto/';" id="f1b1">Editar</button>
-            <button id="f1b2">Eliminar</button>
+            <p>Si ya tienes cuenta de Usuario <a href="http://proyecto.net/login/">Ingrese Aqui</a></p><br><br>
 
-
-
-
-
-            <img id="f2" src="img/cpatu1.png" width="100" alt="">
-            <a href="#">Monitor AOC 14</a>
-            <button onclick="window.location.href='http://proyecto.net/EDproducto/';" id="f2b1">Editar</button>
-            <button id="f2b2">Eliminar</button>
-
-
-
-            <img src="img/cpatu1.png" width="100" alt="">
-            <a href="#">OTRO</a>
-            <button onclick="window.location.href='http://proyecto.net/EDproducto/';" id="f3b1">Editar</button>
-            <button id="f3b2">Eliminar</button>
+            <!--Boton Registrarse--> <button onclick="window.location.href='http://proyecto.net/admin/';">Registrarse</button>
+            <!--Boton cancelar--><button onclick="window.location.href='http://proyecto.net/';">Cancelar</button><br><br><br>
 
 
         </section>
+
+
     </main>
     <footer>
         <nav id="menu2">
@@ -87,6 +81,7 @@
         <!--Fin Menu-->
         <p>📞Cambalache.net</p>
     </footer>
+
 </body>
 
 </html>

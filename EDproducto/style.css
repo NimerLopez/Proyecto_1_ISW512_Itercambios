@@ -1,0 +1,148 @@
+html {
+    margin: auto 50px;
+}
+
+header img {
+    position: relative;
+}
+
+header button {
+    background-color: rgb(202, 198, 198);
+    Font-Size: 11px;
+}
+
+
+header {
+    text-align: center;
+    border-bottom: 1px dotted #000;
+    text-decoration: none;
+    /*Linea*/
+
+}
+
+
+#menu ul {
+    /*Menu*/
+
+    width: 500px;
+    list-style: none;
+    /*Menu*/
+}
+
+#menu ul li {
+    display: inline-block;
+}
+
+#menu ul li a {
+    color: black;
+    display: inline-block;
+    padding: 15px 20px;
+    text-decoration: none;
+    color: #c95555;
+
+}
+
+#menu {
+
+    display: inline-block;
+    position: relative;
+    text-align: right;
+
+}
+
+/*fin header*/
+main{
+    border-bottom: 1px dotted #000;
+    text-decoration: none;
+}
+#CampLetra {
+    background-color: whitesmoke;
+    position: relative;
+    bottom: 20px;
+   
+}
+
+#CampLetra h1 {
+    padding: 70px;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.seccion1 {
+    margin: auto 10px;
+    text-align: center;
+}
+
+.seccion1 p {
+    padding: 10px;
+    position: relative;
+    right: 90px;
+}
+
+#np{
+    position: relative;
+    right: 213px;
+}
+
+#dc {
+    margin: 10px auto;
+    width: 600px;
+    height: 100px;
+}
+#lk{
+    width: 600px;
+}
+#bo {
+    margin: 10px auto;
+    width: 600px;
+    height: 100px;  
+}
+#botones {
+    text-align: center;
+    margin: 30px auto;
+   
+
+}
+#botones button{
+    width: 100px;
+    height: 40px;
+    font-size: 11px;
+}
+#gu{
+    background-color: gray;
+}
+/*footer*/
+#menu2 ul {
+    /*Menu*/
+    list-style: none;
+    margin: 30px auto;
+    padding: 0;
+    width: 500px;
+    /*Menu*/
+}
+
+#menu2 ul li {
+    display: inline-block;
+}
+
+#menu2 ul li a {
+    color: black;
+    display: block;
+    padding: 15px 20px;
+    text-decoration: none;
+    color: #c95555;
+}
+
+#menu2 {
+    position: relative;
+    text-align: center;
+}
+
+footer p {
+    text-align: center;
+    Padding: 10px;
+}
+
+   
