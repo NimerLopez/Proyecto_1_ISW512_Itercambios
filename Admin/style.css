@@ -1,0 +1,159 @@
+html {
+    margin: auto 50px;
+}
+
+header img {
+    position: relative;
+}
+
+header button {
+    background-color: rgb(202, 198, 198);
+    Font-Size: 11px;
+}
+
+
+header {
+    text-align: center;
+    background-color: whitesmoke;
+    border-bottom: 1px dotted #000;
+    text-decoration: none;
+    /*Linea*/
+
+}
+
+
+#menu ul {
+    /*Menu*/
+
+    width: 500px;
+    list-style: none;
+    /*Menu*/
+}
+
+#menu ul li {
+    display: inline-block;
+}
+
+#menu ul li a {
+    color: black;
+    display: inline-block;
+    padding: 15px 20px;
+    text-decoration: none;
+    color: #c95555;
+}
+
+#menu {
+
+    display: inline-block;
+    position: relative;
+    text-align: right;
+
+}
+
+/*fin header*/
+.campotexto {
+    text-align: center;
+    border-bottom: 1px dotted #000;
+    text-decoration: none;
+    margin: 70px auto;
+}
+
+.idboton button {
+    font-Size: 11px;
+    width: 140px;
+    height: 40px;
+    background-color: gray;
+    position: relative;
+    bottom: 4px;
+    left: 40px;
+}
+
+.idboton {
+    border-bottom: 1px dotted #000;
+    text-decoration: none;
+    position: relative;
+    bottom: 60px;
+}
+
+/*SECCCION 1*/
+.seccion1 {
+    border-bottom: 1px dotted #000;
+    text-decoration: none;
+}
+
+.seccion1 a {
+    position: relative;
+    bottom: 120px;
+    font-size: 12px;
+
+}
+
+#f1b1{
+    position: relative;
+    right: 115px;
+    bottom: 90px;
+    background-color: green;   
+}
+#f1b2{
+    position: relative;
+    bottom: 15px;
+    right: 170px; 
+    background-color: red;
+}
+#f2b1{
+    position: relative;
+    right:86px;
+    bottom: 90px;
+    background-color: green;   
+}
+#f2b2{
+    position: relative;
+    bottom: 15px;
+    right: 140px; 
+    background-color: red;
+}
+
+
+#f3b1{
+    position: relative;
+    right: 40px;
+    bottom: 90px;
+    background-color: green;   
+}
+#f3b2{
+    position: relative;
+    bottom: 15px;
+    right: 90px; 
+    background-color: red;
+}
+/*footer*/
+#menu2 ul {
+    /*Menu*/
+    list-style: none;
+    margin: 30px auto;
+    padding: 0;
+    width: 500px;
+    /*Menu*/
+}
+
+#menu2 ul li {
+    display: inline-block;
+}
+
+#menu2 ul li a {
+    color: black;
+    display: block;
+    padding: 15px 20px;
+    text-decoration: none;
+    color: #c95555;
+}
+
+#menu2 {
+    position: relative;
+    text-align: center;
+}
+
+footer p {
+    text-align: center;
+    Padding: 10px;
+}
